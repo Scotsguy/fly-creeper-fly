@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "fly-creeper-fly",
+  "version": "${version}",
+  "name": "Fly Creeper Fly",
+  "description": "Makes creepers fly like blazes do.",
+  "authors": [
+    "AppleTheGolden"
+  ],
+  "contact": {
+    "sources": "https://github.com/Scotsguy/fly-creeper-fly"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/fly-creeper-fly/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.scotsguy.flycreeperfly.flycreeperfly.FlyCreeperFly"
+    ]
+  },
+  "mixins": [
+    "fly-creeper-fly.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.8.0",
+    "minecraft": "1.16.x"
+  },
+  "custom": {
+    "modupdater": {
+      "strategy": "github",
+      "owner": "Scotsguy",
+      "repository": "fly-creeper-fly"
+    }
+  }
+}

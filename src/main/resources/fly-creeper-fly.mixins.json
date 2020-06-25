@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.scotsguy.flycreeperfly.flycreeperfly.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "CreeperEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
